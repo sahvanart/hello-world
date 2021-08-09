@@ -1,0 +1,52 @@
+{
+    "liveServer.settings.donotVerifyTags": true,
+    "editor.renderWhitespace": "none",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "workbench.iconTheme": "material-icon-theme",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "explorer.confirmDragAndDrop": false,
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "window.zoomLevel": 1,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "extensions.ignoreRecommendations": true,
+    "workbench.colorTheme": "Dracula",
+    "editor.fontFamily": "'Operator Mono Lig', 'monospace', monospace, 'Droid Sans Fallback'",
+    "liveServer.settings.AdvanceCustomBrowserCmdLine": "",
+       "editor.fontSize": 14,
+       "editor.fontLigatures": true,
+       "vscode_custom_css.imports": [
+                "file:///var/www/html/vscode/vscode_style.css"
+        ],
+       "vscode_custom_css.policy": true,
+       "editor.fontWeight": 400,
+       "editor.tokenColorCustomizations": {
+                "textMateRules": [
+                {
+                        "scope": "entity.name.tag",
+                        "settings": {
+                                "foreground": "#5e73ed"
+                        }
+                }, 
+                {
+                        "scope": "entity.other.attribute-name",
+                        "settings": {
+                                "foreground": "#2dbf4f"
+                        }
+                },
+                ],
+                "strings": "#eedb8c",
+                "types": "#77bbee",
+                "variables": "#e66a45",
+                "keywords": "#5e73ed",
+                "functions": "#2dbf4f"    
+        }
+}
